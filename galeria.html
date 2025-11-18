@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria do Amor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand"><h1>Galeria — Taylla & Lucas</h1></div>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Início</a>
+        <a href="declaracoes.html" class="nav-link">Declarações</a>
+        <a href="album.html" class="nav-link">Álbum</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2 style="margin-top:18px">Fotos & Frases</h2>
+    <p>Toque em uma foto para abrir em visualização maior.</p>
+
+    <div class="grid-gallery" id="gallery">
+
+      <figure class="card" tabindex="0">
+        <img src="WhatsApp Image 2025-11-17 at 22.51.10.jpeg" alt="Nosso sorriso" onerror="this.src='https://via.placeholder.com/400x250?text=Foto+1'">
+        <figcaption>"Com você, cada instante vira poesia."</figcaption>
+      </figure>
+
+      <figure class="card" tabindex="0">
+        <img src="WhatsApp Image 2025-11-17 at 22.51.16.jpeg" alt="Abraço quente" onerror="this.src='https://via.placeholder.com/400x250?text=Foto+2'">
+        <figcaption>"Te amar é a minha melhor rotina."</figcaption>
+      </figure>
+
+      <figure class="card" tabindex="0">
+        <img src="WhatsApp Image 2025-11-17 at 22.51.29.jpeg" alt="Pôr do sol" onerror="this.src='https://via.placeholder.com/400x250?text=Foto+3'">
+        <figcaption>"Seu sorriso é meu amanhecer favorito."</figcaption>
+      </figure>
+
+    </div>
+
+    <div class="modal" id="modal" role="dialog" aria-modal="true">
+      <img id="modalImg" src="" alt="Foto ampliada">
+    </div>
+
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
+
+
+
